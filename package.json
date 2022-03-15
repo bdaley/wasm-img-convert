@@ -12,7 +12,8 @@
   "author": "Brian Daley",
   "license": "ISC",
   "dependencies": {
-    "@assemblyscript/loader": "^0.19.23"
+    "@assemblyscript/loader": "^0.19.23",
+    "sharp": "^0.30.3"
   },
   "devDependencies": {
     "assemblyscript": "^0.19.23"
