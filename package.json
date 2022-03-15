@@ -1,0 +1,20 @@
+{
+  "name": "wasm-img-convert",
+  "version": "1.0.0",
+  "description": "POC for converting uploaded images from the uploading device using wasm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "author": "Brian Daley",
+  "license": "ISC",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.19.23"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.19.23"
+  }
+}
